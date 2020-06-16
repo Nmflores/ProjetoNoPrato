@@ -196,6 +196,37 @@ i{
     border-bottom: 2px solid #c0392b;
 
 }
+.footer-nav{
+    list-style-type: none;
+    float: left;
+   
+}
+.social-links{
+    list-style-type: none;
+    float: right;
+    
+}
+.footer-nav li a:link,.footer-nav li a:visited,.social-links li a:link,.social-links li a:visited{
+    text-decoration: none;
+    border:0;
+    color:#888;
+     display: block;
+    transition: color 0.2s;
+}
+.footer-nav li a:hover,.footer-nav li a:active{
+    color:#ddd;
+
+}
+
+.social-links li a:link,.social-links li a:visited{
+    font-size: 50%;
+}
+.logo-facebook,.logo-instagram,.logo-twitter{
+    transition: color 0.2s;
+}
+
+
+
 html{
     background-color:#fff;
    
@@ -266,6 +297,16 @@ cite{
     font-size: 90%;
     margin-top: 25px;
     display: block;
+}
+footer{
+    background-color: #333;
+    padding: 50px;
+    font-size: 80%;
+}
+footer p{
+    color:#888;
+    text-align: center;
+    margin-top: 20px;
 }
 
 ion-icon{
